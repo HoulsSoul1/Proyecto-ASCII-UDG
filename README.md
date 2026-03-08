@@ -35,9 +35,8 @@ El tamaño del triángulo depende del número ingresado por el usuario.
 
 Ejemplo:
 
-*
-**
-***
+![Patron](Imagenes/Patrones/Patrón%20Triangulo.png)
+
 ---
 
 ### Cuadrado
@@ -46,10 +45,7 @@ Crea un cuadrado utilizando caracteres ASCII.
 
 Ejemplo:
 
-* * * *
-*     *
-*     *
-* * * *
+![Patron](Imagenes/Patrones/Patrón%20Cuadrado.png)
 
 ---
 
@@ -59,11 +55,7 @@ Genera una pirámide centrada utilizando caracteres `*`.
 
 Ejemplo:
 
-    *
-   ***
-  *****
- *******
-*********
+![Patron](Imagenes/Patrones/Patrón%20Pirámide.png)
 
 ---
 
@@ -99,3 +91,6 @@ Ejemplo:
 ### Texto en movimiento
 
 Un texto se desplaza horizontalmente en la terminal para crear un efecto visual simple.
+
+Ejemplo:
+
