@@ -8,7 +8,6 @@ Proyecto 2: Generador de arte ASCII y animaciones simples en la terminal.
 | :--- | :--- |
 | **Axel Jeydan Andrde Peña**| Encargado del desarrollo del menu principal |
 | **Jose Nicolas Davalos Sevilla** | Encargado de la conversiones |
-| **Valeria Carolina Mendez Cervantes** | Encargada del desarrollo de calculos matematicos |
 | **Francia Amayrani Ruiz Rodriguez**| Encargada del funcionamiento del sistema historial |
 
 ## Funciones
