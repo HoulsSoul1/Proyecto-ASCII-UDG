@@ -2,7 +2,7 @@
 
 Proyecto 2: Generador de arte ASCII y animaciones simples en la terminal.
 
-### Integrantes 
+### Integrantes 🧑‍🎓
 
 | Nombre | Rol |
 | :--- | :--- |
@@ -38,7 +38,7 @@ Ejemplo:
 
 ---
 
-### Cuadrado
+### Cuadrado ⬜
 
 Crea un cuadrado utilizando caracteres ASCII.
 
@@ -48,7 +48,7 @@ Ejemplo:
 
 ---
 
-### Pirámide
+### Pirámide :tr
 
 Genera una pirámide centrada utilizando caracteres `*`.
 
@@ -58,15 +58,12 @@ Ejemplo:
 
 ---
 
-## Texto Artístico
+## Texto Artístico 
 
 Esta opción permite generar texto decorativo dentro de un marco ASCII.
 
 Ejemplo:
-
-********
-* Axel *
-********
+![Texto](Imagenes/Texto%20artistico/Marco%20(ART).png)
 
 ---
 
@@ -79,11 +76,7 @@ El programa incluye pequeñas animaciones que se ejecutan directamente en la ter
 Simula el progreso de una tarea mediante una barra animada.
 
 Ejemplo:
-
-[####------] 40%
-[######----] 60%
-[########--] 80%
-[##########] 100%
+![Animacio](Imagenes/Animaciones/Animacion%20(BarraP).png)
 
 ---
 
@@ -92,6 +85,8 @@ Ejemplo:
 Un texto se desplaza horizontalmente en la terminal para crear un efecto visual simple.
 
 Ejemplo:
+
+
 
 # 📖 Instrucciones de Uso
 

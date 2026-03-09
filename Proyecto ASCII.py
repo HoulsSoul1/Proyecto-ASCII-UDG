@@ -70,6 +70,13 @@ def dibujar_piramide(altura):
         resultado += espacios + estrellas + "\n"
     return resultado
 
+## Este apartado de funciones se encarga de generar las figuras y un submenu 
+## submenu_patrones(): Es la pantalla interactiva donde eliges qué figura quieres. Te pide las medidas (como la altura o el lado) para formar la figura
+## dibujo_triangulo(altura): Usa un ciclo para imprimir líneas. En la línea 1 imprime un asterisco, en la 2 imprime dos, y así sucesivamente.
+## dibujar_cuadrado(lado): Usa dos ciclos anidados (uno dentro de otro) para revisar filas y columnas.
+## dibujar_piramide(altura): Dibuja una pirámide centrada calculando cuántos espacios en blanco debe dejar a la izquierda antes de empezar a imprimir los asteriscos en cada nivel.
+
+
 #========================
 # TEXTO ARTÍSTICO 
 #========================
@@ -138,6 +145,12 @@ def tabla(numero):
         resultado += f"{numero} x {i}\t\t= {numero * i}\n"
     return resultado
 
+## En estas funciones se hace lo mismo se crea un submenu para funciones artisticas y las funciones que va a ejecutar
+## submeno_artistico(): Es el menú donde eliges si quieres un banner, un marco o una tabla. Toma los datos que escribes y te devuelve el arte generado.
+## baner(texto): Calcula cuántas letras tiene tu texto y crea un borde superior e inferior de asteriscos
+## marco(texto, estilo):Similar al banner, pero te permite elegir con qué símbolo quieres decorar los bordes (~ o =).
+## tabla(numero): Crea una tabla de multiplicar clásica (del 1 al 10) usando un ciclo for, y la adorna poniéndole un título usando la función baner.
+
 #==========================
 #ANIMACIONES
 #==========================
@@ -180,12 +193,17 @@ def animar_texto(texto):
         time.sleep(0.2)
     print("\n") 
 
-#=====================================
-#FUNCIONES AUXILIARES
-#=====================================
 
-def carga_galeria():
-    """Carga de archivos"""
+## Hace lo mismo que en los otras funciones crea un submenu y crea los diseños en este caso animados
+## submenu_animaciones(): El menú de selección para las animaciones.
+## barra_progreso(): Crea una falsa barra de carga, el carácter \r (retorno de carro), que hace que la consola borre la línea actual y escriba la nueva encima. Combinado con pausas de 0.3 segundos (time.sleep), da la ilusión de que la barra se está llenando.
+## animar_texto(texto): Usa el mismo truco del \r y las pausas de tiempo, pero en lugar de dibujar una barra, va agregando espacios en blanco a la izquierda de tu texto. Esto hace que parezca que las letras se deslizan hacia la derecha
+
+
+#=======================================
+# FUNCIONES COMPLEMENTARIAS
+#=======================================
+    
     archivos = os.listdir(CARPETA_DATOS)
     for archivo in archivos:
         if archivo.endswith(".txt"):
@@ -214,6 +232,11 @@ def exportar_arte(nombre, arte):
 
 def nombres_del_equipo():
     print("Axel Jeydan , Jose Nicolas, Francia Amayrany")
+
+## Estas funciones se encargan de la memoria y al gestion de archivos
+## carga_galeria(): Lee la carpeta datos/ buscando archivos .txt. Si encuentra dibujos guardados de sesiones anteriores, los carga en la lista del programa.
+## agregar_a_galeria(nombre, arte): Toma el dibujo que acabas de hacer y lo guarda temporalmente en una lista (galeria_guardada) en la memoria RAM del programa.
+## exportar_arte(nombre, arte): Toma el dibujo y crea un archivo de texto real y físico (un .txt) dentro de la carpeta datos/ para que lo guardes para siempre.
     
 #================================
 #MENU PRINCIPAL 
@@ -281,6 +304,10 @@ def iniciando_programa():
             
         else:
             print("\n❌ Opción inválida. Por favor seleccione 1-7.")
+
+## El muenu principal donde se mostrara los submenus y las opciones de las funciones complementarias, 
+## cerrando el programa amablemente con los créditos del equipo si eliges la opción 7.
+
 
 if __name__ == "__main__":
     iniciando_programa()
