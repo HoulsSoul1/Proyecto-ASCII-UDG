@@ -305,5 +305,9 @@ def iniciando_programa():
         else:
             print("\n❌ Opción inválida. Por favor seleccione 1-7.")
 
+## El muenu principal donde se mostrara los submenus y las opciones de las funciones complementarias, 
+## cerrando el programa amablemente con los créditos del equipo si eliges la opción 7.
+
+
 if __name__ == "__main__":
     iniciando_programa()
