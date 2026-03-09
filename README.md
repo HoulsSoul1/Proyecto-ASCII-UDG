@@ -63,7 +63,7 @@ Ejemplo:
 Esta opción permite generar texto decorativo dentro de un marco ASCII.
 
 Ejemplo:
-¡[Texto](Imagenes/Texto%20artistico/Marco%20(ART).png)
+![Texto](Imagenes/Texto%20artistico/Marco%20(ART).png)
 
 ---
 
@@ -76,7 +76,7 @@ El programa incluye pequeñas animaciones que se ejecutan directamente en la ter
 Simula el progreso de una tarea mediante una barra animada.
 
 Ejemplo:
-¡[Animacio](Imagenes/Animaciones/Animacion%20(BarraP).png)
+![Animacio](Imagenes/Animaciones/Animacion%20(BarraP).png)
 
 ---
 
