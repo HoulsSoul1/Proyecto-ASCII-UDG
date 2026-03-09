@@ -193,12 +193,17 @@ def animar_texto(texto):
         time.sleep(0.2)
     print("\n") 
 
-#=====================================
-#FUNCIONES AUXILIARES
-#=====================================
 
-def carga_galeria():
-    """Carga de archivos"""
+## Hace lo mismo que en los otras funciones crea un submenu y crea los diseños en este caso animados
+## submenu_animaciones(): El menú de selección para las animaciones.
+## barra_progreso(): Crea una falsa barra de carga, el carácter \r (retorno de carro), que hace que la consola borre la línea actual y escriba la nueva encima. Combinado con pausas de 0.3 segundos (time.sleep), da la ilusión de que la barra se está llenando.
+## animar_texto(texto): Usa el mismo truco del \r y las pausas de tiempo, pero en lugar de dibujar una barra, va agregando espacios en blanco a la izquierda de tu texto. Esto hace que parezca que las letras se deslizan hacia la derecha
+
+
+#=======================================
+# FUNCIONES COMPLEMENTARIAS
+#=======================================
+    
     archivos = os.listdir(CARPETA_DATOS)
     for archivo in archivos:
         if archivo.endswith(".txt"):
@@ -227,6 +232,11 @@ def exportar_arte(nombre, arte):
 
 def nombres_del_equipo():
     print("Axel Jeydan , Jose Nicolas, Francia Amayrany")
+
+## Estas funciones se encargan de la memoria y al gestion de archivos
+## carga_galeria(): Lee la carpeta datos/ buscando archivos .txt. Si encuentra dibujos guardados de sesiones anteriores, los carga en la lista del programa.
+## agregar_a_galeria(nombre, arte): Toma el dibujo que acabas de hacer y lo guarda temporalmente en una lista (galeria_guardada) en la memoria RAM del programa.
+## exportar_arte(nombre, arte): Toma el dibujo y crea un archivo de texto real y físico (un .txt) dentro de la carpeta datos/ para que lo guardes para siempre.
     
 #================================
 #MENU PRINCIPAL 
