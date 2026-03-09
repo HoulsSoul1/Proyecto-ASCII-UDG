@@ -70,6 +70,13 @@ def dibujar_piramide(altura):
         resultado += espacios + estrellas + "\n"
     return resultado
 
+## Este apartado de funciones se encarga de generar las figuras y un submenu 
+## submenu_patrones(): Es la pantalla interactiva donde eliges qué figura quieres. Te pide las medidas (como la altura o el lado) para formar la figura
+## dibujo_triangulo(altura): Usa un ciclo para imprimir líneas. En la línea 1 imprime un asterisco, en la 2 imprime dos, y así sucesivamente.
+## dibujar_cuadrado(lado): Usa dos ciclos anidados (uno dentro de otro) para revisar filas y columnas.
+## dibujar_piramide(altura): Dibuja una pirámide centrada calculando cuántos espacios en blanco debe dejar a la izquierda antes de empezar a imprimir los asteriscos en cada nivel.
+
+
 #========================
 # TEXTO ARTÍSTICO 
 #========================
@@ -137,6 +144,12 @@ def tabla(numero):
     for i in range(1, 11):
         resultado += f"{numero} x {i}\t\t= {numero * i}\n"
     return resultado
+
+## En estas funciones se hace lo mismo se crea un submenu para funciones artisticas y las funciones que va a ejecutar
+## submeno_artistico(): Es el menú donde eliges si quieres un banner, un marco o una tabla. Toma los datos que escribes y te devuelve el arte generado.
+## baner(texto): Calcula cuántas letras tiene tu texto y crea un borde superior e inferior de asteriscos
+## marco(texto, estilo):Similar al banner, pero te permite elegir con qué símbolo quieres decorar los bordes (~ o =).
+## tabla(numero): Crea una tabla de multiplicar clásica (del 1 al 10) usando un ciclo for, y la adorna poniéndole un título usando la función baner.
 
 #==========================
 #ANIMACIONES
