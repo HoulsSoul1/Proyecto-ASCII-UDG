@@ -85,41 +85,8 @@ Ejemplo:
 Un texto se desplaza horizontalmente en la terminal para crear un efecto visual simple.
 
 Ejemplo:
-# Intrucciones de uso 
-A continuaicion se describe los pasos necesarios para ejecutar y utilizar el programa de arte ASSCI. 
+
 ---
-## 1. Ejecutar el programa 
-1. Abrir una terminal o consola en la carpeta del proyecto. 
-2. Ejectar el siguiente comando: 
-```bash 
-python main.py 
-
-## 2. Navegar por el menu principal 
-El menu principal permite acceder a las distintas funcionalidades del programa:
-Ejemplo de menu 
-![Menu principal](Imagenes/Menu%20principal.png)
-Para seleccionar una opcion, el usuario debe escribir el numero correspondinente y presionar enter
-##3 Generar patrones ASCCI 
-Si el usuiario puede seleccionar la opcion de patrones: 
-1. El programa pedira el tamaño de la digura. 
-2. Despues genera el patron en la terminal. 
-##4 Crear texto artistico 
-El usuario puede escribbir un texto que sera mostrado en un formato decorativo utilizando caracteristicas ASCII. 
-##5 Ejecutar animaciones 
-El programa incluye animaciones simples que se muestran directamente en la terminal. 
-Por ejemplo: 
-1. Bara de progreso 
-2. Texto en movimiento  
-Las animaciones se ejecutan automaticamente despues de seleccionar la opccion corresponndinete. 
-##6 Guardar en galeria 
-Algunas opciones permiten guardar el arte generado en un archivo .txt 
-Las creaciones se almacenan dentro de la carpeta: /datos 
-Esto permite consultar posteriormente las creaciones del usuario 
-##7 Salir del porgrama 
-Para cerrar el programa, el usuario debe selecionar la opciion Salir en el menu principal.
-
-
-
 
 # 📖 Instrucciones de Uso
 
