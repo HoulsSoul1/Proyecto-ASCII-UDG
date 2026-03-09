@@ -2,7 +2,7 @@
 
 Proyecto 2: Generador de arte ASCII y animaciones simples en la terminal.
 
-### Integrantes 
+### Integrantes 🧑‍🎓
 
 | Nombre | Rol |
 | :--- | :--- |
@@ -38,7 +38,7 @@ Ejemplo:
 
 ---
 
-### Cuadrado
+### Cuadrado ⬜
 
 Crea un cuadrado utilizando caracteres ASCII.
 
@@ -48,7 +48,7 @@ Ejemplo:
 
 ---
 
-### Pirámide
+### Pirámide :tr
 
 Genera una pirámide centrada utilizando caracteres `*`.
 
@@ -58,7 +58,7 @@ Ejemplo:
 
 ---
 
-## Texto Artístico
+## Texto Artístico 
 
 Esta opción permite generar texto decorativo dentro de un marco ASCII.
 
