@@ -6,7 +6,7 @@ Proyecto 2: Generador de arte ASCII y animaciones simples en la terminal.
 
 | Nombre | Rol |
 | :--- | :--- |
-| **Axel Jeydan Andrde Peña**| Encargado del desarrollo del menu principal |
+| **Axel Jeydan Andrade Peña**| Encargado del desarrollo del menu principal |
 | **Jose Nicolas Davalos Sevilla** | Encargado de la conversiones |
 | **Francia Amayrani Ruiz Rodriguez**| Encargada del funcionamiento del sistema historial |
 
